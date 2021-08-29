@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+.topo{ 
+    position: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    left: 20%; 
+}
+
+
+#globo{
+    color: #0669de;
+    font-weight: bolder;
+    padding: 30px;
+
+}
+
+#g1{
+    color: #b80000;
+    font-weight: bold;
+    padding: 30px;
+
+}
+
+#ge{
+    color: #06aa6e;
+    font-weight: bold;
+    padding: 30px;
+
+}
+
+#gshow{
+    color: #fd7f00;
+    font-weight: bold;
+    padding: 30px;
+
+}
+
+#videos{
+    color: #0669de;
+    font-weight: bold;
+    padding: 30px;
+
+}
+
+.box1{
+    background-color: #d00c0e;
+    height: 75px;
+}
+
+#button{
+    position: absolute;
+    padding: 1px;
+    height: 15px;
+    width: 40px;
+    left: 85%;
+    top: 10px;
+    font-size: 80%;
+    border-style: none;
+    
+}
+
+#button:hover{
+    color: red;
+    border-color: red;
+    border-style: solid;
+    width: 50px;
+    height: 20px;
+}
+
+*
+
+#fotop{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    margin: 7px;
+}
+
+.box2{
+    background-color: #e40000;
+    position: relative;
+    top: 257px;
+    width: 450px;
+    height: 70px;
+    left: 7px;
+    color: white;
+    padding: 10px;
+    size: 16px;
+    font-weight: bold;
+
+}
+
+.ntc1{
+    position: absolute;
+    top: 120px;
+    padding: 7px;
+    left: 102%;
+}
+
+#texto1{
+    left: 200px;
+    color: #555;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 135%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    width: 200px;
+    height: 90px;
+
+
+
+}
+
+.ntc2{
+    position: absolute;
+    top: 242px;
+    padding: 7px;
+    left: 102%;
+
+}
+
+#texto2{
+    left: 20px;
+    color: #555;
+    font-weight: bold;
+    position: absolute;
+    top: 250px;
+    left: 135%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    width: 200px;
+    height: 90px;
+
+
+}
+
+.ntc3{
+    position: absolute;
+    top: 0px;
+    padding: 7px;
+    height: 142px;
+    width: 142px;
+    left: 102%;
+    
+}
+
+#texto3{
+    left: 200px;
+    color: #555;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 135%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    width: 200px;
+    height: 90px;
+}
+
+.risca{
+    position: absolute;
+    width: 350px;
+    background-color: #b6b6b6;
+    height: 1px;
+    top: 105px;
+    left: 104%;
+}
+
+.risca2{
+    position: absolute;
+    width: 350px;
+    background-color: #b6b6b6;
+    height: 1px;
+    top: 228px;
+    left: 104%;
+}
+
+
+.noticiacomp{
+    position: absolute;
+    left: 200px;    
+}
+
+
+*
+
+#menu{
+    position: absolute;
+    top: 65px;
+    height: 30px;
+    width: 30px;
+    left: 85%;
+}
+
+#logo{
+    position: absolute;
+    top: 38px;
+    height: 70px;
+    margin: 0px;
+}
+
+@media(max-width: 900px) {
+
+    #fotop{
+        position: absolute;
+        width: 300px;
+        height: 193px;
+        margin: 7px;
+    }
+    
+    .box2{
+        background-color: #e40000;
+        position: relative;
+        top: 200px;
+        width: 300px;
+        height: 70px;
+        left: 7px;
+        color: white;
+        padding: 10px;
+        size: 16px;
+        font-weight: bold;
+    
+    }
+    
+    .ntc1{
+        position: absolute;
+        top: 385px;
+        padding: 7px;
+        left: 158px;
+
+    }
+    
+    #texto1{
+        left: 200px;
+        color: #555;
+        font-weight: bold;
+        position: absolute;
+        top: 385px;
+        left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        width: 170px;
+        height: 90px;
+    
+    
+    
+    }
+    
+    .ntc2{
+        position: absolute;
+        top: 505px;
+        padding: 7px;
+        left: 158px;
+
+    }
+    
+    #texto2{
+        left: 20px;
+        color: #555;
+        font-weight: bold;
+        position: absolute;
+        top: 500px;
+        left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        width: 170px;
+        height: 90px;
+    
+    
+    
+    }
+    
+    .ntc3{
+        position: absolute;
+        top: 270px;
+        padding: 7px;
+        height: 142px;
+        width: 142px;
+        left: 158px;
+        
+    }
+    
+    #texto3{
+        left: 200px;
+        color: #555;
+        font-weight: bold;
+        position: absolute;
+        top: 270px;
+        left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        width: 170px;
+        height: 90px;
+    
+    
+    
+    }
+    
+    .risca{
+        position: absolute;
+        width: 300px;
+        background-color: #b6b6b6;
+        height: 1px;
+        top: 490px;
+        left: 0px;
+    }
+    
+    .risca2{
+        position: absolute;
+        width: 300px;
+        background-color: #b6b6b6;
+        height: 1px;
+        top: 375px;
+        left: 0px;
+
+    }
+    
+    
+    .noticiacomp{
+        position: absolute;
+        left: 20%;    
+    }
+
+    .topo{
+        left: 5px;
+    }
+
+
+    #gshow{
+        
+        padding: 5px;
+    
+    }
+
+    #g1{
+        
+        padding: 5px;
+    
+    }
+
+    #videos{
+        
+        padding: 5px;
+    
+    }
+
+ 
+    
+    #ge{
+        
+        padding: 5px;
+    
+    }
+    
+}
+
+@media(max-width: 550px) {
+
+    
+    #fotop{
+        position: absolute;
+        width: 300px;
+        height: 193px;
+        margin: 7px;
+    }
+    
+    .box2{
+        background-color: #e40000;
+        position: relative;
+        top: 198px;
+        width: 300px;
+        height: 70px;
+        left: 7px;
+        color: white;
+        padding: 10px;
+        size: 16px;
+        font-weight: bold;
+    
+    }
+
+    .topo{
+        left: 1px;
+    }
+    .noticiacomp{
+        left: 0%;
+        margin: 0px;
+    
+    }
+
+    #gshow{
+        
+        padding: 1px;
+    
+    }
+
+    #g1{
+        
+        padding: 1px;
+    
+    }
+
+    #videos{
+        
+        padding: 1px;
+    
+    }
+
+    #g1{
+        
+        padding: 1px;
+    
+    }
+    
+    #ge{
+        
+        padding: 1px;
+    
+    }
+
+    #globo{
+        
+        padding: 5px;
+    
+    }
+    
+
+    #button{
+        
+        left: 70%;
+        
+    }
+
+    #logo{
+        position: absolute;
+        top: 38px;
+        height: 70px;
+        margin: 0px;
+    }
+}
